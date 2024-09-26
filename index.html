@@ -1,31 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario de Usuario</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
 </head>
 <body>
-    <h1>Biblioteca Escuela Técnica</h1>
-    <h2>libros</h2>
-    <h3>herramientas</h3>
-    <h4>alumnos</h4>
-
-    <p>esta es la app de la <br> biblioteca de la escueal tecnica</p>
-    <img src="" alt="">
-
-    <form action="">
-        <label for="">Titulo del libro</label>
-        <input type="text">
-        <label for="">mail</label>
-        <input type="email">
-        <label for="">cantidad copias</label>
-        <input type="number">
-        <textarea name="" id="">pone descripcion</textarea>
-        <button type="submit">enviar</button>
-    </form>
-
-    <a href="https://www.lanacion.com.ar/">la nacion</a>
-    <a href="menu.html">menu</a>
+    <div class="container">
+        <div class="formulario">
+            <div class="avatar">
+                <span>F</span>
+            </div>
+            <form>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+                <input type="text" placeholder="DNI">
+                <input type="text" placeholder="Usuario">
+                <input type="password" placeholder="Contraseña">
+                <div class="checkbox-container">
+                    <label for="profesor">Soy un profesor</label>
+                    <input type="checkbox" id="profesor">
+                </div>
+                <button type="submit">Crear Usuario</button>
+            </form>
+        </div>
+        <div class="imagen">
+            <img src="bookshelf.jpg" alt="Librería">
+        </div>
+    </div>
 </body>
 </html>
